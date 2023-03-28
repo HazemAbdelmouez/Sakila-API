@@ -33,3 +33,5 @@ The Sakila Web App provides users with access to the Sakila database through bot
 
 The client-side of the application is implemented using Servlets and JSPs, providing users with a web-based interface to access the data stored in the database. The interface allows users to view, add, edit, and delete records from the database.
 
+
+### Imporatant note: This readme file will be updated while working on the project and the final version of this reeadme will be ready after finshing the project and this note will be deleted.
