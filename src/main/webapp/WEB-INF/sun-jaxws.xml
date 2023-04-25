@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+
+    <endpoint
+            name="sakilaWebService"
+            implementation="org.example.webservices.soap.controllers.ActorController"
+            url-pattern="/sakila/actor" />
+
+    <endpoint
+            name="sakilaWebService"
+            implementation="org.example.webservices.soap.controllers.FilmController"
+            url-pattern="/sakila/film" />
+
+    <endpoint
+            name="sakilaWebService"
+            implementation="org.example.webservices.soap.controllers.CategoriesController"
+            url-pattern="/sakila/category" />
+
+</endpoints>
