@@ -4,17 +4,17 @@
 
     <endpoint
             name="sakilaWebService"
-            implementation="org.example.webservices.soap.controllers.ActorController"
-            url-pattern="/sakila/actor" />
+            implementation="org.example.webservices.soap.serivces.Actor"
+            url-pattern="/ws/actor" />
 
     <endpoint
             name="sakilaWebService"
-            implementation="org.example.webservices.soap.controllers.FilmController"
-            url-pattern="/sakila/film" />
+            implementation="org.example.webservices.soap.serivces.Film"
+            url-pattern="/ws/film" />
 
     <endpoint
             name="sakilaWebService"
-            implementation="org.example.webservices.soap.controllers.CategoriesController"
-            url-pattern="/sakila/category" />
+            implementation="org.example.webservices.soap.serivces.Category"
+            url-pattern="/ws/category" />
 
 </endpoints>
